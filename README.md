@@ -24,7 +24,7 @@ This document describes **Difficulty-Aware 3D Object Detection**, a pipeline tha
 
 **mAP (Moderate): 82.51%**
 
-## Visual Examples
+![Detector Comparison](assets/detector_comparison.png)
 
 **Difficulty Overlay:** Detected objects colored by predicted difficulty score. Blue indicates low difficulty (easy to detect), warmer colors (cyan/orange/red) indicate higher difficulty.
 
@@ -180,6 +180,8 @@ We tested different combinations of input features to identify which information
 | `image_bbox` | Image + Width + Height | 71.5% |
 | `image_depth_bbox` | Image + Depth + W + H | 89.0% |
 | `image_all` | All features + Trunc + Occ | 85.3% |
+
+![Ablation Study](assets/ablation_chart.png)
 
 **Key findings:**
 
