@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model checkpoints (too large)
+*.pth
+*.pt
+*.ckpt
+
+# Data
+data/
+*.bin
+*.pkl
+*.csv
+
+# Output
+output/
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+temp_*
+debug_*
